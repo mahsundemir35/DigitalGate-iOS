@@ -10,7 +10,7 @@ The Digitalgate IOS SDK is compatible with IOS 9.0 and above. Swift 3.2 and abov
 
 Find Digitalgate.framework file under the framework folder and copy the file into the your project, add the framework to your Embedded Binaries
 
-####Login Coordinator
+#### Login Coordinator
 
 Everything is handled through the LoginCoordinator class. You insantiate it and pass the root view controller which is the UIViewController from which the Login process will be started (presented) on.
 
@@ -67,11 +67,17 @@ Handle anything you want to happen when LoginCoordinator starts. Make sure to ca
 Before starting the Login process you should provide following parameters,
 
 -appID: Application id which assigned to each app by DigitalGate admin
+
 -language: Language of SDK default is TR
+
 -useTestServer: using Test or Prod servers
+
 -disableCellLogin: if true, cellular login functionality won’t work.
+
 -autoLoginOnly: if true, only cellular login and remember me will work
+
 -disableAutoLogin: if true, login process is forced to user.
+
 -accessGroup: Keychain access group of applications if any,
 
 
