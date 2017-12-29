@@ -1,11 +1,3 @@
-//
-//  LoginCoordinator.swift
-//  LoginKit
-//
-//  Created by Daniel Lozano Valdés on 3/26/17.
-//  Copyright © 2017 CocoaPods. All rights reserved.
-//
-
 import Foundation
 import DigitalGate
 
@@ -40,8 +32,6 @@ class LoginCoordinator: DigitalGate.DGLoginCoordinator {
 
     func configureAppearance() {
         
-        // Customize LoginKit. All properties have defaults, only set the ones you want.
-
         // Customize the look with background & logo images
         //theme.mainLogoImage = #imageLiteral(resourceName: "Background")
         // mainLogoImage =
