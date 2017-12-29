@@ -10,7 +10,7 @@ The Digitalgate IOS SDK is compatible with IOS 9.0 and above. Swift 3.2 and abov
 
 Find Digitalgate.framework file under the framework folder and copy the file into the your project, add the framework to your Embedded Binaries
 
-####Login Coordinator
+#### Login Coordinator
 
 Everything is handled through the LoginCoordinator class. You insantiate it and pass the root view controller which is the UIViewController from which the Login process will be started (presented) on.
 
