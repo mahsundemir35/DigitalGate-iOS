@@ -67,11 +67,17 @@ Handle anything you want to happen when LoginCoordinator starts. Make sure to ca
 Before starting the Login process you should provide following parameters,
 
 -appID: Application id which assigned to each app by DigitalGate admin
+
 -language: Language of SDK default is TR
+
 -useTestServer: using Test or Prod servers
+
 -disableCellLogin: if true, cellular login functionality won’t work.
+
 -autoLoginOnly: if true, only cellular login and remember me will work
+
 -disableAutoLogin: if true, login process is forced to user.
+
 -accessGroup: Keychain access group of applications if any,
 
 
