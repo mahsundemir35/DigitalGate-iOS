@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		773161692008F1AD000B8ABA /* DigitalGate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 773161682008F1AD000B8ABA /* DigitalGate.framework */; };
+		7731616A2008F1B7000B8ABA /* DigitalGate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 773161682008F1AD000B8ABA /* DigitalGate.framework */; };
+		7731616B2008F1B7000B8ABA /* DigitalGate.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 773161682008F1AD000B8ABA /* DigitalGate.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		77F9C38F1FF5061500DDD3A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F9C38E1FF5061500DDD3A3 /* AppDelegate.swift */; };
 		77F9C3911FF5061500DDD3A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F9C3901FF5061500DDD3A3 /* ViewController.swift */; };
 		77F9C3941FF5061500DDD3A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77F9C3921FF5061500DDD3A3 /* Main.storyboard */; };
@@ -15,8 +18,6 @@
 		77F9C3A41FF5061500DDD3A3 /* DigitalGateAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F9C3A31FF5061500DDD3A3 /* DigitalGateAppTests.swift */; };
 		77F9C3AF1FF5061500DDD3A3 /* DigitalGateAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F9C3AE1FF5061500DDD3A3 /* DigitalGateAppUITests.swift */; };
 		77F9C3C21FF506E800DDD3A3 /* LoginCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F9C3C11FF506E800DDD3A3 /* LoginCoordinator.swift */; };
-		77F9C3C41FF61FCF00DDD3A3 /* DigitalGate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77F9C3C31FF61FBF00DDD3A3 /* DigitalGate.framework */; };
-		77F9C3C51FF61FCF00DDD3A3 /* DigitalGate.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 77F9C3C31FF61FBF00DDD3A3 /* DigitalGate.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,7 +44,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				77F9C3C51FF61FCF00DDD3A3 /* DigitalGate.framework in Embed Frameworks */,
+				7731616B2008F1B7000B8ABA /* DigitalGate.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -51,6 +52,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		773161682008F1AD000B8ABA /* DigitalGate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DigitalGate.framework; sourceTree = "<group>"; };
 		77F9C38B1FF5061500DDD3A3 /* DigitalGateApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DigitalGateApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		77F9C38E1FF5061500DDD3A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		77F9C3901FF5061500DDD3A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -65,7 +67,6 @@
 		77F9C3AE1FF5061500DDD3A3 /* DigitalGateAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigitalGateAppUITests.swift; sourceTree = "<group>"; };
 		77F9C3B01FF5061500DDD3A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		77F9C3C11FF506E800DDD3A3 /* LoginCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCoordinator.swift; sourceTree = "<group>"; };
-		77F9C3C31FF61FBF00DDD3A3 /* DigitalGate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DigitalGate.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,7 +74,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				77F9C3C41FF61FCF00DDD3A3 /* DigitalGate.framework in Frameworks */,
+				7731616A2008F1B7000B8ABA /* DigitalGate.framework in Frameworks */,
+				773161692008F1AD000B8ABA /* DigitalGate.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,7 +152,7 @@
 		77F9C3BC1FF5063300DDD3A3 /* Framework */ = {
 			isa = PBXGroup;
 			children = (
-				77F9C3C31FF61FBF00DDD3A3 /* DigitalGate.framework */,
+				773161682008F1AD000B8ABA /* DigitalGate.framework */,
 			);
 			path = Framework;
 			sourceTree = "<group>";

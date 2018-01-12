@@ -13,7 +13,7 @@ class LoginCoordinator: DigitalGate.DGLoginCoordinator {
 
     weak var delegate: LoginCoordinatorDelegate?
     override func start(dgFlow: DGFlow) {
-        appID = "2"
+        appID = "201"
         useTestServer = true
         disableAutoLogin = false
         autoLoginOnly = false
