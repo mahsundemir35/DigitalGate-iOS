@@ -7,9 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		773161692008F1AD000B8ABA /* DigitalGate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 773161682008F1AD000B8ABA /* DigitalGate.framework */; };
-		7731616A2008F1B7000B8ABA /* DigitalGate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 773161682008F1AD000B8ABA /* DigitalGate.framework */; };
-		7731616B2008F1B7000B8ABA /* DigitalGate.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 773161682008F1AD000B8ABA /* DigitalGate.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		27D18DB65D97C6A15671548C /* Pods_DigitalGateAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F5E4D86A0243951877DB227 /* Pods_DigitalGateAppUITests.framework */; };
+		777B15D4219090C0C9EE8AB7 /* Pods_DigitalGateAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C3FE42F3F87C595F7BB4A5F /* Pods_DigitalGateAppTests.framework */; };
 		77F9C38F1FF5061500DDD3A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F9C38E1FF5061500DDD3A3 /* AppDelegate.swift */; };
 		77F9C3911FF5061500DDD3A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F9C3901FF5061500DDD3A3 /* ViewController.swift */; };
 		77F9C3941FF5061500DDD3A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77F9C3921FF5061500DDD3A3 /* Main.storyboard */; };
@@ -18,6 +17,7 @@
 		77F9C3A41FF5061500DDD3A3 /* DigitalGateAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F9C3A31FF5061500DDD3A3 /* DigitalGateAppTests.swift */; };
 		77F9C3AF1FF5061500DDD3A3 /* DigitalGateAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F9C3AE1FF5061500DDD3A3 /* DigitalGateAppUITests.swift */; };
 		77F9C3C21FF506E800DDD3A3 /* LoginCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F9C3C11FF506E800DDD3A3 /* LoginCoordinator.swift */; };
+		EB9B7682A367EDD80F911756 /* Pods_DigitalGateApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD6940BFCBBE6DD9384F4029 /* Pods_DigitalGateApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,7 +44,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				7731616B2008F1B7000B8ABA /* DigitalGate.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -52,7 +51,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		773161682008F1AD000B8ABA /* DigitalGate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DigitalGate.framework; sourceTree = "<group>"; };
+		4C3FE42F3F87C595F7BB4A5F /* Pods_DigitalGateAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DigitalGateAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		540C3304DAF7C510B4F9C903 /* Pods-DigitalGateApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DigitalGateApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DigitalGateApp/Pods-DigitalGateApp.debug.xcconfig"; sourceTree = "<group>"; };
+		58C0FB2E2564753431004575 /* Pods-DigitalGateApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DigitalGateApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-DigitalGateApp/Pods-DigitalGateApp.release.xcconfig"; sourceTree = "<group>"; };
+		5F5E4D86A0243951877DB227 /* Pods_DigitalGateAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DigitalGateAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		76C874085BC7F13022AF8B88 /* Pods-DigitalGateAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DigitalGateAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DigitalGateAppUITests/Pods-DigitalGateAppUITests.release.xcconfig"; sourceTree = "<group>"; };
 		77F9C38B1FF5061500DDD3A3 /* DigitalGateApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DigitalGateApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		77F9C38E1FF5061500DDD3A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		77F9C3901FF5061500DDD3A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -67,6 +70,10 @@
 		77F9C3AE1FF5061500DDD3A3 /* DigitalGateAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigitalGateAppUITests.swift; sourceTree = "<group>"; };
 		77F9C3B01FF5061500DDD3A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		77F9C3C11FF506E800DDD3A3 /* LoginCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCoordinator.swift; sourceTree = "<group>"; };
+		CC30F71058FD96E98988B77A /* Pods-DigitalGateAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DigitalGateAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DigitalGateAppTests/Pods-DigitalGateAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E2CD85280D07C8DD48906D86 /* Pods-DigitalGateAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DigitalGateAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DigitalGateAppTests/Pods-DigitalGateAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		F0B6092CD7224D50F1ACF106 /* Pods-DigitalGateAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DigitalGateAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DigitalGateAppUITests/Pods-DigitalGateAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FD6940BFCBBE6DD9384F4029 /* Pods_DigitalGateApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DigitalGateApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,8 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7731616A2008F1B7000B8ABA /* DigitalGate.framework in Frameworks */,
-				773161692008F1AD000B8ABA /* DigitalGate.framework in Frameworks */,
+				EB9B7682A367EDD80F911756 /* Pods_DigitalGateApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				777B15D4219090C0C9EE8AB7 /* Pods_DigitalGateAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,12 +97,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27D18DB65D97C6A15671548C /* Pods_DigitalGateAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		28A4C0AE6AD5C592FF41A476 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				540C3304DAF7C510B4F9C903 /* Pods-DigitalGateApp.debug.xcconfig */,
+				58C0FB2E2564753431004575 /* Pods-DigitalGateApp.release.xcconfig */,
+				CC30F71058FD96E98988B77A /* Pods-DigitalGateAppTests.debug.xcconfig */,
+				E2CD85280D07C8DD48906D86 /* Pods-DigitalGateAppTests.release.xcconfig */,
+				F0B6092CD7224D50F1ACF106 /* Pods-DigitalGateAppUITests.debug.xcconfig */,
+				76C874085BC7F13022AF8B88 /* Pods-DigitalGateAppUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		77F9C3821FF5061500DDD3A3 = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +124,8 @@
 				77F9C3A21FF5061500DDD3A3 /* DigitalGateAppTests */,
 				77F9C3AD1FF5061500DDD3A3 /* DigitalGateAppUITests */,
 				77F9C38C1FF5061500DDD3A3 /* Products */,
+				28A4C0AE6AD5C592FF41A476 /* Pods */,
+				77FF507BD32EFF1DE38FC5F5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -120,7 +143,6 @@
 			isa = PBXGroup;
 			children = (
 				77F9C3C11FF506E800DDD3A3 /* LoginCoordinator.swift */,
-				77F9C3BC1FF5063300DDD3A3 /* Framework */,
 				77F9C38E1FF5061500DDD3A3 /* AppDelegate.swift */,
 				77F9C3901FF5061500DDD3A3 /* ViewController.swift */,
 				77F9C3921FF5061500DDD3A3 /* Main.storyboard */,
@@ -149,12 +171,14 @@
 			path = DigitalGateAppUITests;
 			sourceTree = "<group>";
 		};
-		77F9C3BC1FF5063300DDD3A3 /* Framework */ = {
+		77FF507BD32EFF1DE38FC5F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				773161682008F1AD000B8ABA /* DigitalGate.framework */,
+				FD6940BFCBBE6DD9384F4029 /* Pods_DigitalGateApp.framework */,
+				4C3FE42F3F87C595F7BB4A5F /* Pods_DigitalGateAppTests.framework */,
+				5F5E4D86A0243951877DB227 /* Pods_DigitalGateAppUITests.framework */,
 			);
-			path = Framework;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,10 +188,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 77F9C3B31FF5061500DDD3A3 /* Build configuration list for PBXNativeTarget "DigitalGateApp" */;
 			buildPhases = (
+				F881549C3907E410233B3F98 /* [CP] Check Pods Manifest.lock */,
 				77F9C3871FF5061500DDD3A3 /* Sources */,
 				77F9C3881FF5061500DDD3A3 /* Frameworks */,
 				77F9C3891FF5061500DDD3A3 /* Resources */,
 				77F9C3C01FF506A800DDD3A3 /* Embed Frameworks */,
+				3C8A4D9813C90AC536052DC5 /* [CP] Embed Pods Frameworks */,
+				E1733355B79A0389E1958D0E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +209,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 77F9C3B61FF5061500DDD3A3 /* Build configuration list for PBXNativeTarget "DigitalGateAppTests" */;
 			buildPhases = (
+				B41835C39A294F8847D75628 /* [CP] Check Pods Manifest.lock */,
 				77F9C39B1FF5061500DDD3A3 /* Sources */,
 				77F9C39C1FF5061500DDD3A3 /* Frameworks */,
 				77F9C39D1FF5061500DDD3A3 /* Resources */,
+				3EC3D9D1A8F3060F34AC9258 /* [CP] Embed Pods Frameworks */,
+				A7128B69857D39997EA89EC0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -200,9 +230,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 77F9C3B91FF5061500DDD3A3 /* Build configuration list for PBXNativeTarget "DigitalGateAppUITests" */;
 			buildPhases = (
+				9B627384DC660F2B2187127C /* [CP] Check Pods Manifest.lock */,
 				77F9C3A61FF5061500DDD3A3 /* Sources */,
 				77F9C3A71FF5061500DDD3A3 /* Frameworks */,
 				77F9C3A81FF5061500DDD3A3 /* Resources */,
+				023CC8045BE20B60223635D6 /* [CP] Embed Pods Frameworks */,
+				36E8B14DB91D3D7183E5E053 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -286,6 +319,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		023CC8045BE20B60223635D6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DigitalGateAppUITests/Pods-DigitalGateAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		36E8B14DB91D3D7183E5E053 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DigitalGateAppUITests/Pods-DigitalGateAppUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3C8A4D9813C90AC536052DC5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DigitalGateApp/Pods-DigitalGateApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3EC3D9D1A8F3060F34AC9258 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DigitalGateAppTests/Pods-DigitalGateAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B627384DC660F2B2187127C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A7128B69857D39997EA89EC0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DigitalGateAppTests/Pods-DigitalGateAppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B41835C39A294F8847D75628 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E1733355B79A0389E1958D0E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DigitalGateApp/Pods-DigitalGateApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F881549C3907E410233B3F98 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		77F9C3871FF5061500DDD3A3 /* Sources */ = {
@@ -458,6 +629,7 @@
 		};
 		77F9C3B41FF5061500DDD3A3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 540C3304DAF7C510B4F9C903 /* Pods-DigitalGateApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -477,6 +649,7 @@
 		};
 		77F9C3B51FF5061500DDD3A3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58C0FB2E2564753431004575 /* Pods-DigitalGateApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -496,6 +669,7 @@
 		};
 		77F9C3B71FF5061500DDD3A3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC30F71058FD96E98988B77A /* Pods-DigitalGateAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -513,6 +687,7 @@
 		};
 		77F9C3B81FF5061500DDD3A3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2CD85280D07C8DD48906D86 /* Pods-DigitalGateAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -530,6 +705,7 @@
 		};
 		77F9C3BA1FF5061500DDD3A3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0B6092CD7224D50F1ACF106 /* Pods-DigitalGateAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -546,6 +722,7 @@
 		};
 		77F9C3BB1FF5061500DDD3A3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76C874085BC7F13022AF8B88 /* Pods-DigitalGateAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
