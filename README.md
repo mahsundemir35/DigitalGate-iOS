@@ -8,7 +8,9 @@ The Digitalgate IOS SDK is compatible with IOS 9.0 and above. Swift 3.2 and abov
 
 ### Installation
 
-Find Digitalgate.framework file under the framework folder and copy the file into the your project, add the framework to your Embedded Binaries
+Add to your pod file following
+
+pod DigitalGate
 
 #### Login Coordinator
 
