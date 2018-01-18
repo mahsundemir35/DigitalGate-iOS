@@ -1,12 +1,12 @@
 PODS:
-  - DigitalGate (1.0)
+  - DigitalGate (1.1)
 
 DEPENDENCIES:
-  - DigitalGate
+  - DigitalGate (= 1.1)
 
 SPEC CHECKSUMS:
-  DigitalGate: 7f7a2672aa565742d8b4263d479c07d2e132b797
+  DigitalGate: abe6b3d9fed02346fd0cfed604917bb934a17f90
 
-PODFILE CHECKSUM: 6ed4d05a5f39077eb86959c2c62ff6c21746aa72
+PODFILE CHECKSUM: 1a5ec7aa1b2c280abd9aea24521f8c205350b946
 
 COCOAPODS: 1.2.0
