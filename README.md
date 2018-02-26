@@ -12,6 +12,30 @@ Add to your pod file following
 
 pod DigitalGate
 
+### Caution
+
+For Objective C users,
+
+Since You cannot subclass a Swift class in Objective-C.
+
+Use coordinatorDelegate parameter to get callbacks, And handle following methods,
+
+```objective-c
+- (void)dgLoginToken:(NSString *)token {
+
+}
+
+- (void)dgLoginFailure:(NSString * _Nonnull)reason errorMessage:(NSString * _Nonnull)errorMessage {
+
+}
+
+- (void)dgConfigurationFailureWithConfigError:(NSString * _Nonnull)configError {
+    
+}
+
+    ...
+```
+
 #### Login Coordinator
 
 Everything is handled through the LoginCoordinator class. You insantiate it and pass the root view controller which is the UIViewController from which the Login process will be started (presented) on.
