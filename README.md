@@ -45,6 +45,7 @@ class ViewController: UIViewController, LoginCoordinatorDelegate {
     lazy var loginCoordinator: LoginCoordinator = {
         let loginVC = LoginCoordinator( self)
         loginVC.delegate = self
+        loginVC.appId = "0000"
         return loginVC
     }()
 
